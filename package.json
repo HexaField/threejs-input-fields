@@ -1,0 +1,40 @@
+{
+  "name": "threejs-input-fields",
+  "version": "1.0.0",
+  "description": "An update to the original 'threejs-input-fields' module by Vargaf",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.example.js",
+    "build": "webpack --config ./webpack.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HexaField/threejs-input-fields.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HexaField/threejs-input-fields/issues"
+  },
+  "homepage": "https://github.com/HexaField/threejs-input-fields#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "three": "^0.119.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "mousetrap": "^1.6.5"
+  }
+}
