@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.example.js",
-    "build": "webpack --config ./webpack.build.js"
+    "build": "webpack --config ./webpack.build.js",
+    "compile": "npx babel \"src\" --watch -d \"lib\""
   },
   "repository": {
     "type": "git",
